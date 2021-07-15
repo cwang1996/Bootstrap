@@ -1,0 +1,47 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar .container {
+    color: #fff;
+}
+
+.navbar .container ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .container li {
+    margin-right: 30px;
+}
+
+.jumbotron {
+    margin-top: 100px;
+}
+
+.jumbotron h1 {
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+.jumbotron .container {
+    max-width: 800px;
+}
+
+.jumbotron .btn {
+    width: 200px;
+    margin: 20px 15px;
+}
